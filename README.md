@@ -14,8 +14,8 @@ curl https://raw.githubusercontent.com/udleinati/setup/main/.zshrc -o ~/.zshrc
 
 # Apps
 
-https://zed.dev/download
-https://arc.net/download
-https://openvpn.net/client-connect-vpn-for-mac-os/
-https://proton.me/pass/download
-https://proton.me/drive/download
+* https://zed.dev/download
+* https://arc.net/download
+* https://openvpn.net/client-connect-vpn-for-mac-os/
+* https://proton.me/pass/download
+* https://proton.me/drive/download
