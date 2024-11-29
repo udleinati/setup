@@ -14,8 +14,12 @@ curl https://raw.githubusercontent.com/udleinati/setup/main/.zshrc -o ~/.zshrc
 
 # Apps
 
-* https://zed.dev/download
-* https://arc.net/download
+* https://desktop.github.com/download/
+* https://code.visualstudio.com/docs/?dv=osx
 * https://openvpn.net/client-connect-vpn-for-mac-os/
 * https://proton.me/pass/download
 * https://proton.me/drive/download
+* https://slack.com/intl/en-gb/downloads/mac
+* https://www.skype.com/pt/get-skype/
+* https://www.docker.com/products/docker-desktop/
+* https://www.google.com/chrome/
