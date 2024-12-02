@@ -10,6 +10,15 @@ brew install powerlevel10k zsh-autosuggestions zsh-syntax-highlighting fzf
 brew install eza zoxide bat fd hyperfine
 brew install gh
 curl -fsSL https://deno.land/install.sh | sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
+brew tap DB-Vincent/kube-context https://github.com/DB-Vincent/kube-context
+brew install DB-Vincent/kube-context/kube-context
+
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+sudo installer -pkg AWSCLIV2.pkg -target /
+rm AWSCLIV2.pkg
+
 curl https://raw.githubusercontent.com/udleinati/setup/main/.wezterm.lua -o ~/.wezterm.lua
 curl https://raw.githubusercontent.com/udleinati/setup/main/.zshrc -o ~/.zshrc
 ```
