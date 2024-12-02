@@ -12,6 +12,8 @@ source <(fzf --zsh)
 
 alias ls="eza --icons=always"
 alias cat="bat"
+alias k="kubectl"
+alias kx="kube-context"
 
 eval "$(zoxide init zsh)"
 alias cd="z"
@@ -33,4 +35,4 @@ bindkey '^[[B' history-search-forward
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-
+. "/Users/udleinati/.deno/env"
